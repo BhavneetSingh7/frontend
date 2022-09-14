@@ -1,0 +1,131 @@
+.main {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.card {
+    border-radius: 20px;
+    border-width: 1px;
+    box-shadow: 0 0 10 rgb(93, 93, 93);
+    overflow: hidden;
+    width: 90%;
+    max-width: 320px;
+    margin: 15px 0 15px 0;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(67, 67, 67, 0.446);
+}
+.illustration {
+    width: 100%;
+}
+.img-mobile {
+    width: 100%;
+}
+.content {
+    text-align: center;
+}
+.summary {
+    color: hsl(224, 23%, 55%);
+    width: 90%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 15px 5% 20px 5%;
+    font-size: 13px;
+}
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    vertical-align: top;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.music-icon {
+    display: inline-block;
+}
+.plan-rate {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-right: 10px;
+    padding-right: 15px;
+}
+.plan-mid {
+    margin: 0 0 0 0;
+    font-size: 14px;
+}
+#rate {
+    color: hsl(224, 23%, 55%);
+}
+#change-link {
+    vertical-align: top;
+    margin: 10px 0 10px 25px;
+    font-size: 13px;
+}
+#change-link:hover {
+    text-decoration: none;
+}
+.buttons {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+#payment-button {
+    padding: 15px 15% 15px 15%;
+    border-radius: 8px;
+    border-style: none;
+    border-width: 0;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 14px;
+    font-weight:600;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0 15px 15px hsla(224, 29%, 54%, 0.39);
+}
+#payment-button:hover {
+    background-color: rgba(66, 5, 251, 0.645);
+}
+#cancel-button {
+    display: block;
+    /* padding: 10px 20% 10px 20%; */
+    border-radius: 8px;
+    border-style: none;
+    border-width: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+#cancel-button:hover {
+    color: hsl(223, 47%, 23%);
+}
+@media (min-width:600px) {
+    .card {
+        max-width: 350px;
+        margin-top: 4%;
+    }
+    .summary {
+        width: 80%;
+        margin: 10px 10% 20px 10%;
+    }
+}
+button:hover {
+    cursor: pointer;
+}
+h2 {
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
